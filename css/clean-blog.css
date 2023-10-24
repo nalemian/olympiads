@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -95,7 +91,6 @@ hr.small {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -105,7 +100,6 @@ hr.small {
     backface-visibility: hidden;
   }
   .navbar-custom.is-fixed {
-    /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -129,7 +123,6 @@ hr.small {
     color: #0085A1;
   }
   .navbar-custom.is-visible {
-    /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
     -moz-transform: translate3d(0, 100%, 0);
     -ms-transform: translate3d(0, 100%, 0);
